@@ -1,7 +1,7 @@
 docker-jenkins
 ==============
     OS Base : Ubuntu 14.04
-    Jenkins version :  1.557
+    Jenkins version : Latest LTS (http://jenkins-ci.org/changelog-stable)
     Exposed Ports : 8080 2812 22
     Jenkins Home : /var/lib/jenkins
     Timezone : Europe/London
@@ -21,7 +21,7 @@ Environment Variables
 
 Services
 --------
-    Jenkins
+    Jenkins LTS
     Monit
     SSHD
 
