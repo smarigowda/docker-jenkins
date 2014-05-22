@@ -15,7 +15,7 @@ done
 echo "Jenkins is running, now get plugins.."
 
 # Update updateCenter so we have a valid list of plugins
-wget -q -O- http://updates.jenkins-ci.org/update-center.json | sed '1d;$d' > default.json
+wget -q -O- http://updates.jenkins-ci.org/stable/update-center.json | sed '1d;$d' > default.json
 curl -s -X POST -H "Accept: application/json" -d @default.json http://127.0.0.1:8181/updateCenter/byId/default/postBack
 
 
