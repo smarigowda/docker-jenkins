@@ -17,7 +17,7 @@ RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
             openssh-server \
             monit \
             curl \
-            openjdk-7-jre-headless \
+            openjdk-7-jdk \
             git \
             subversion
 
